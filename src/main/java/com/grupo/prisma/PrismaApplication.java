@@ -1,40 +1,29 @@
 package com.grupo.prisma;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
-import com.mongodb.client.MongoDatabase;
+
 
 @SpringBootApplication
+//@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
 public class PrismaApplication {
 
+	
 	public static void main(String[] args) {
 		SpringApplication.run(PrismaApplication.class, args);
 		
-		//i5FoEjFrZ9TB6TdZ
+		/*Gxpz36Is4XrCyqnn
 		
-	
-		
-		/*
-		 
-		 Java Driver Example¶
-		MongoDB Version 3.6 or later
-		 MongoClientURI uri = new MongoClientURI(
-   		"mongodb+srv://ivanfcomesen:<PASSWORD>@geminis-gsyv1.mongodb.net/dbprisma");		
-		
-		MongoClient mongoClient = new MongoClient(uri);
-		MongoDatabase database = mongoClient.getDatabase("prisma");
-		
-		
-		  
-		  */
-		
+		MongoClientURI uri = new MongoClientURI(
+				   "mongodb://ivanfcomesen:<Gxpz36Is4XrCyqnn>@geminis-shard-00-00-gsyv1.mongodb.net:27017,geminis-shard-00-01-gsyv1.mongodb.net:27017,geminis-shard-00-02-gsyv1.mongodb.net:27017/test?ssl=true&replicaSet=Geminis-shard-0&authSource=admin");
 
-		  
-		
-		
-		
+				MongoClient mongoClient = new MongoClient(uri);
+				MongoDatabase database = mongoClient.getDatabase("test");*/		
+
 	}
 }
