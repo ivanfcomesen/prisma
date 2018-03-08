@@ -1,7 +1,5 @@
 package com.grupo.prisma;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
 public class Topic {
 	
