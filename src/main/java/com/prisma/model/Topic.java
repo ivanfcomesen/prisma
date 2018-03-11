@@ -1,4 +1,4 @@
-package com.grupo.prisma;
+package com.prisma.model;
 
 
 public class Topic {
@@ -16,8 +16,7 @@ public class Topic {
 		this.id=id;
 		this.name=name;
 		this.description=description;
-	}
-				
+	}		
 
 	public String getId() {
 		return id;

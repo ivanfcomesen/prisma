@@ -1,10 +1,12 @@
-package com.grupo.prisma;
+package com.prisma.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
+import com.prisma.model.Topic;
 
 @Service
 public class TopicService {
