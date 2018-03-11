@@ -17,7 +17,7 @@ public class PrismaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(PrismaApplication.class, args);
 		
-		/*Gxpz36Is4XrCyqnn
+		/*6Q5w9IBzy24bNutI
 		
 		MongoClientURI uri = new MongoClientURI(
 				   "mongodb://ivanfcomesen:<Gxpz36Is4XrCyqnn>@geminis-shard-00-00-gsyv1.mongodb.net:27017,geminis-shard-00-01-gsyv1.mongodb.net:27017,geminis-shard-00-02-gsyv1.mongodb.net:27017/test?ssl=true&replicaSet=Geminis-shard-0&authSource=admin");

@@ -11,7 +11,8 @@ public class TopicService {
 
 	public List<Topic> topics = new ArrayList<>(Arrays.asList(
 			new Topic("spring", "Spring Framework", "Spring Framework Description"),
-			new Topic("java", "Java Framework", "Java Framework Description"), new Topic("jascript", "JS", "Jsdes")));
+			new Topic("java", "Java Framework", "Java Framework Description"), 
+			new Topic("jascript", "JS", "Jsdes")));
 
 	public List<Topic> getAllTopics() {
 		return topics;
