@@ -3,10 +3,10 @@ package com.prisma.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection ="Topic")
+//@Document(collection ="Topic")
 public class Topic {
 	
-	@Id
+//	@Id
 	private String id;
 	private String name;
 	private String description;

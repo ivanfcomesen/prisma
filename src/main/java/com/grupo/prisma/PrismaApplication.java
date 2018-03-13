@@ -4,13 +4,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.mongodb.MongoClient;
 import com.mongodb.MongoClientURI;
 
 
-@SpringBootApplication
-//@EnableAutoConfiguration(exclude={MongoAutoConfiguration.class})
+@SpringBootApplication @ComponentScan(basePackages = { "com.*"})
 public class PrismaApplication {
 
 	
