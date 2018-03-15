@@ -1,4 +1,4 @@
-package com.prisma.controller;
+package com.grupo.prisma;
 
 import java.util.List;
 
@@ -9,14 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.prisma.model.Topic;
-import com.prisma.service.TopicService;
-
 @RestController
 public class TopicController {
 
 	@Autowired
 	private TopicService topicService;
+		
+	
 
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {

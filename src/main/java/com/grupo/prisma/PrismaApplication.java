@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 
-@SpringBootApplication @ComponentScan(basePackages = { "com.*"})
+@SpringBootApplication //@ComponentScan(basePackages = { "com.*"})
 public class PrismaApplication {
 
 	
@@ -19,7 +19,10 @@ public class PrismaApplication {
 				   "mongodb://ivanfcomesen:<Gxpz36Is4XrCyqnn>@geminis-shard-00-00-gsyv1.mongodb.net:27017,geminis-shard-00-01-gsyv1.mongodb.net:27017,geminis-shard-00-02-gsyv1.mongodb.net:27017/test?ssl=true&replicaSet=Geminis-shard-0&authSource=admin");
 
 				MongoClient mongoClient = new MongoClient(uri);
-				MongoDatabase database = mongoClient.getDatabase("test");*/		
+				MongoDatabase database = mongoClient.getDatabase("test");*/
+		
+		
+		
 
 	}
 }

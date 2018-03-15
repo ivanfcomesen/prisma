@@ -1,12 +1,12 @@
-package com.prisma.model;
+package com.grupo.prisma;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-//@Document(collection ="Topic")
+@Document(collection ="Topics")
 public class Topic {
 	
-//	@Id
+	@Id
 	private String id;
 	private String name;
 	private String description;
@@ -16,7 +16,7 @@ public class Topic {
 	}
 	
 	public Topic (String id,String name,String description) {
-		super();
+		//super();
 		this.id=id;
 		this.name=name;
 		this.description=description;
