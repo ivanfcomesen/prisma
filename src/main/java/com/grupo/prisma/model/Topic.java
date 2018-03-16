@@ -1,4 +1,4 @@
-package com.grupo.prisma;
+package com.grupo.prisma.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
