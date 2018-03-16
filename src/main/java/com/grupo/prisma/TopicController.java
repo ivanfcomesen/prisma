@@ -14,8 +14,7 @@ public class TopicController {
 
 	@Autowired
 	private TopicService topicService;
-		
-	
+			
 
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
@@ -31,6 +30,7 @@ public class TopicController {
 
 	@RequestMapping(method = RequestMethod.POST, value = "/topics")
 	public void addTopic(@RequestBody Topic topic) {
+		topicService.addTopic(topic);
 
 	}	
 	
@@ -44,14 +44,6 @@ public class TopicController {
 		topicService.deleteTopic(id);
 
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
