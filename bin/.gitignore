@@ -8,6 +8,7 @@ target/
 .project
 .settings
 .springBeans
+*.properties
 
 ### IntelliJ IDEA ###
 .idea
@@ -15,10 +16,3 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-nbproject/private/
-build/
-nbbuild/
-dist/
-nbdist/
-.nb-gradle/
